@@ -1,0 +1,16 @@
+..\..\output\tasks.o: ..\..\Freertos\tasks.c
+..\..\output\tasks.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\output\tasks.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+..\..\output\tasks.o: ..\..\Freertos\include\FreeRTOS.h
+..\..\output\tasks.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\tasks.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\tasks.o: ..\..\Freertos\FreeRTOSConfig.h
+..\..\output\tasks.o: ..\..\Freertos\include\projdefs.h
+..\..\output\tasks.o: ..\..\Freertos\include\portable.h
+..\..\output\tasks.o: ..\..\Freertos\include\deprecated_definitions.h
+..\..\output\tasks.o: ..\..\Freertos\portable\RVDS\ARM_CM3\portmacro.h
+..\..\output\tasks.o: ..\..\Freertos\include\mpu_wrappers.h
+..\..\output\tasks.o: ..\..\Freertos\include\task.h
+..\..\output\tasks.o: ..\..\Freertos\include\list.h
+..\..\output\tasks.o: ..\..\Freertos\include\timers.h
+..\..\output\tasks.o: ..\..\Freertos\include\StackMacros.h

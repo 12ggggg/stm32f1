@@ -1,0 +1,13 @@
+..\..\output\system_state.o: ..\..\USER\system_state.c
+..\..\output\system_state.o: ..\..\USER\system_state.h
+..\..\output\system_state.o: ..\..\Freertos\include\FreeRTOS.h
+..\..\output\system_state.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\system_state.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\system_state.o: ..\..\Freertos\FreeRTOSConfig.h
+..\..\output\system_state.o: ..\..\Freertos\include\projdefs.h
+..\..\output\system_state.o: ..\..\Freertos\include\portable.h
+..\..\output\system_state.o: ..\..\Freertos\include\deprecated_definitions.h
+..\..\output\system_state.o: ..\..\Freertos\portable\RVDS\ARM_CM3\portmacro.h
+..\..\output\system_state.o: ..\..\Freertos\include\mpu_wrappers.h
+..\..\output\system_state.o: ..\..\Freertos\include\semphr.h
+..\..\output\system_state.o: ..\..\Freertos\include\queue.h

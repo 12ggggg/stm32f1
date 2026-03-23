@@ -1,0 +1,16 @@
+..\..\output\app_data.o: ..\..\task\app_data.c
+..\..\output\app_data.o: ..\..\task\app_data.h
+..\..\output\app_data.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\app_data.o: ..\..\Freertos\include\FreeRTOS.h
+..\..\output\app_data.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\app_data.o: ..\..\Freertos\FreeRTOSConfig.h
+..\..\output\app_data.o: ..\..\Freertos\include\projdefs.h
+..\..\output\app_data.o: ..\..\Freertos\include\portable.h
+..\..\output\app_data.o: ..\..\Freertos\include\deprecated_definitions.h
+..\..\output\app_data.o: ..\..\Freertos\portable\RVDS\ARM_CM3\portmacro.h
+..\..\output\app_data.o: ..\..\Freertos\include\mpu_wrappers.h
+..\..\output\app_data.o: ..\..\Freertos\include\semphr.h
+..\..\output\app_data.o: ..\..\Freertos\include\queue.h
+..\..\output\app_data.o: ..\..\Freertos\include\task.h
+..\..\output\app_data.o: ..\..\Freertos\include\list.h
+..\..\output\app_data.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

@@ -1,0 +1,180 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: lin 8615919643698, lin, LIC=MPPLD-8YMY2-KP3ZY-ILHZB-0UQXS-VC4YE
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.24.1
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DCM.DLL V1.16.0.0
+Target DLL:      CMSIS_AGDI.dll V1.28.3.0
+Dialog DLL:      TCM.DLL V1.32.0.0
+ 
+<h2>Project:</h2>
+C:\Users\86159\Desktop\链表ui-freertos v9.0 完整版 全部完成\Project\RVMDK（uv5）\BH-F103.uvprojx
+Project File Date:  03/23/2026
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'LDC'
+compiling task_sd.c...
+..\..\task\app_data.h(145): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\task\task_sd.h(18): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\ui\page_sd.h(11): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\task\task_sd.c(182): warning:  #1-D: last line of file ends without a newline
+  }
+..\..\task\task_sd.c: 4 warnings, 0 errors
+compiling page_music.c...
+..\..\task\app_data.h(145): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\ui\page_music.h(10): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\ui\menu_list.h(77): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\task\task_music.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\ui\page_music.c(248): warning:  #1-D: last line of file ends without a newline
+  }
+..\..\ui\page_music.c: 5 warnings, 0 errors
+compiling task_lvgl.c...
+..\..\task\app_data.h(145): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\ui\menu_list.h(77): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\task\task_lvgl.c(21): warning:  #177-D: variable "s_printed"  was declared but never referenced
+  	static uint8_t s_printed = 0;
+..\..\task\task_lvgl.c(52): warning:  #223-D: function "printf" declared implicitly
+  		 printf("task_lvgl create failed!\r\n");
+..\..\task\task_lvgl.c(54): warning:  #223-D: function "printf" declared implicitly
+  	 printf("task_lvgl create successful!\r\n");
+..\..\task\task_lvgl.c(55): warning:  #1-D: last line of file ends without a newline
+  }
+..\..\task\task_lvgl.c: 6 warnings, 0 errors
+compiling task_draw.c...
+..\..\task\app_data.h(145): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\ui\menu_list.h(77): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\task\task_sd.h(18): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\ui\page_music.h(10): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\ui\page_gps.h(10): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\ui\page_sd.h(11): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\ui\page_weather.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\task\task_draw.c(116): warning:  #1-D: last line of file ends without a newline
+  }
+..\..\task\task_draw.c: 8 warnings, 0 errors
+compiling task_music.c...
+..\..\task\app_data.h(145): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\task\task_music.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\task\task_sd.h(18): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\User\delay\delay.h(14): warning:  #47-D: incompatible redefinition of macro "CoreDebug_BASE"  (declared at line 717 of "..\..\Libraries\CMSIS\core_cm3.h")
+  #define CoreDebug_BASE      (0xE000EDF0UL)
+..\..\User\delay\delay.h(18): warning:  #47-D: incompatible redefinition of macro "CoreDebug_DEMCR_TRCENA_Msk"  (declared at line 674 of "..\..\Libraries\CMSIS\core_cm3.h")
+  #define CoreDebug_DEMCR_TRCENA_Msk    (1 << 24)
+..\..\User\delay\delay.h(29): warning:  #1295-D: Deprecated declaration Delay_Init - give arg types
+  void Delay_Init();
+..\..\User\delay\delay.h(43): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\task\task_music.c(259): warning:  #1-D: last line of file ends without a newline
+  }
+..\..\task\task_music.c: 8 warnings, 0 errors
+compiling task_wifi.c...
+..\..\task\app_data.h(145): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\bsp\wifi\bsp_wifi.h(41): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\task\task_wifi.h(11): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\task\task_wifi.c: 3 warnings, 0 errors
+compiling bsp_wifi.c...
+..\..\User\delay\delay.h(14): warning:  #47-D: incompatible redefinition of macro "CoreDebug_BASE"  (declared at line 717 of "..\..\Libraries\CMSIS\core_cm3.h")
+  #define CoreDebug_BASE      (0xE000EDF0UL)
+..\..\User\delay\delay.h(18): warning:  #47-D: incompatible redefinition of macro "CoreDebug_DEMCR_TRCENA_Msk"  (declared at line 674 of "..\..\Libraries\CMSIS\core_cm3.h")
+  #define CoreDebug_DEMCR_TRCENA_Msk    (1 << 24)
+..\..\User\delay\delay.h(29): warning:  #1295-D: Deprecated declaration Delay_Init - give arg types
+  void Delay_Init();
+..\..\User\delay\delay.h(43): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\task\app_data.h(145): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\bsp\wifi\bsp_wifi.h(41): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\bsp\wifi\bsp_wifi.c(212): warning:  #223-D: function "printf" declared implicitly
+      printf(">> [1/4] AT check...\r\n");
+..\..\bsp\wifi\bsp_wifi.c(266): warning:  #223-D: function "printf" declared implicitly
+          printf(">> TCP connect failed\r\n");
+..\..\bsp\wifi\bsp_wifi.c(269): warning:  #223-D: function "printf" declared implicitly
+      printf(">> TCP OK\r\n");
+..\..\bsp\wifi\bsp_wifi.c(359): warning:  #223-D: function "atoi" declared implicitly
+          out_data->temp_cur = (int8_t)atoi(p + 15);
+..\..\bsp\wifi\bsp_wifi.c(361): warning:  #223-D: function "printf" declared implicitly
+          printf(">> Parse: no temperature\r\n");
+..\..\bsp\wifi\bsp_wifi.c(377): warning:  #1-D: last line of file ends without a newline
+  }
+..\..\bsp\wifi\bsp_wifi.c: 12 warnings, 0 errors
+compiling task_gps.c...
+..\..\User\./usart/bsp_usart.h(86): warning:  #1-D: last line of file ends without a newline
+  #endif /* __USART_H */
+..\..\User\./usart/bsp_usart.h(33): warning:  #47-D: incompatible redefinition of macro "DMA1_IT_TC4"  (declared at line 233 of "..\..\Libraries\FWlib\inc\stm32f10x_dma.h")
+  #define DMA1_IT_TC4                    DMA1_IT_TC4
+..\..\User\./usart/bsp_usart.h(86): warning:  #1-D: last line of file ends without a newline
+  #endif /* __USART_H */
+..\..\task\task_gps.h(11): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\task\app_data.h(145): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\bsp\gps\bsp_gps.h(26): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\task\task_gps.c(73): warning:  #1-D: last line of file ends without a newline
+  }
+..\..\task\task_gps.c: 7 warnings, 0 errors
+compiling bsp_sdio_sdcard.c...
+..\..\User\./usart/bsp_usart.h(86): warning:  #1-D: last line of file ends without a newline
+  #endif /* __USART_H */
+..\..\User\./usart/bsp_usart.h(33): warning:  #47-D: incompatible redefinition of macro "DMA1_IT_TC4"  (declared at line 233 of "..\..\Libraries\FWlib\inc\stm32f10x_dma.h")
+  #define DMA1_IT_TC4                    DMA1_IT_TC4
+..\..\User\./usart/bsp_usart.h(86): warning:  #1-D: last line of file ends without a newline
+  #endif /* __USART_H */
+..\..\bsp\sdio\bsp_sdio_sdcard.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=220168 RO-data=207848 RW-data=1516 ZI-data=62620  
+FromELF: creating hex file...
+"..\..\Output\Template.axf" - 0 Error(s), 56 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.2.0.pack
+                Keil.STM32F1xx_DFP.2.2.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_LDC
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:04
+</pre>
+</body>
+</html>

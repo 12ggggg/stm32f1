@@ -1,0 +1,29 @@
+# 编译输出目录
+Output/
+Listing/
+DebugConfig/
+RTE/
+
+# Keil 生成的中间文件
+*.crf
+*.d
+*.o
+*.axf
+*.hex
+*.bin
+*.dep
+*.scvd
+*.uvgui.*
+*.uvoptx
+*.uvguix.*
+
+# 其他临时文件
+*.bak
+*.lst
+*.map
+*.lnp
+Thumbs.db
+.DS_Store
+
+# 如果配置文件包含敏感信息（如 wifi 密码、API key），取消注释下一行
+# config.h
